@@ -1,0 +1,12 @@
+@import 'core/reset';
+
+.page {
+    background: rgb(180, 179, 179);
+}
+
+.main {
+    min-height: calc(100vh - 130px - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

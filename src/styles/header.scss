@@ -1,0 +1,19 @@
+@import 'core/variables';
+@import 'core/mixins';
+
+.header {
+    font-family: $fontRoboto;
+    font-size: 12px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $colorWhite;
+    background: $colorBlack;
+    padding: 15px;
+
+    @include tablet {
+        font-size: 18px;
+    }
+}

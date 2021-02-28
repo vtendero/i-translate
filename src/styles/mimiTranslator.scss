@@ -1,0 +1,57 @@
+@import 'core/variables';
+@import 'core/mixins';
+
+.translateButton {
+    margin: 5px;
+}
+
+.translator {
+    font-family: $fontRoboto;
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+    border: 2px solid black;
+    width: 70vw;
+    min-height: 100px;
+    margin: 15px 15px 20px;
+    background: $colorWhite;
+        @include tablet {
+            width: 50vw;
+        }
+
+    &__title {
+        padding: 10px 0 0 10px;
+        color: rgb(160, 160, 160);
+        font-size: 14px;
+
+        @include tablet {
+            font-size: 16px;
+        }
+    }
+    
+    &__text {
+        font-family: $fontRoboto;
+        font-weight: bolder;
+        font-size: 14px;
+        padding: 10px;
+        width: 50vw;
+        height: fit-content;
+        @include tablet {
+            width: 40vw;
+            font-size: 16px;
+        }
+    }
+
+    &__gif {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        border-radius: 20px;
+        opacity: 0.6;
+    }
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+}
