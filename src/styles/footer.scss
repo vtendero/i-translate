@@ -9,7 +9,6 @@
     width: 100%;
     height: 130px;
     justify-content: flex-end;
-    padding-bottom: 10px;
 
     @include tablet {
         flex-direction: row;
@@ -24,7 +23,7 @@
         color: $colorWhite;
         font-family: $fontRoboto;
         font-size: 12px;
-        margin-bottom: 5px;
+        padding-bottom: 15px;
         &--motto {
             color: $colorMotto;
             font-size: 10px;
